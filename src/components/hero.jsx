@@ -21,7 +21,7 @@ const Hero = () => {
 
                 <div className="flex flex-col items-center justify-center mt-2 gap-3 space-y-6 p-2">
                     <a
-                        href="../../public/Resume.pdf"
+                        href="https://docs.google.com/document/d/14YNtc0M3m1GX3t8aEF3UDv2pV9T-Z9QckaGX9z5SKi0/edit?tab=t.0"
                         download
                         className="flex justify-center items-center rounded-lg border border-indigo-600 border-e-gray-500 px-5 py-3 text-md font-bold text-sky-400 shadow-lg shadow-indigo-900 transition-all duration-300 hover:bg-gray-500"
                     >

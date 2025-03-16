@@ -1,4 +1,7 @@
 import React from "react";
+import iamge1 from "../../public/teachers/Mukhriddin-Hodiev.jpg";
+import image2 from "../../public/teachers/Islom-Abdulahatov.jpg";
+import image3 from "../../public/teachers/Ibrohim-Jalolov.jpg";
 
 const Teachers = () => {
     return (
@@ -20,8 +23,8 @@ const Teachers = () => {
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
                                 <img
-                                    src="../../public/teachers/Mukhriddin-Hodiev.jpg"
-                                    alt="teacher"
+                                    src={iamge1}
+                                    alt=""
                                     className="card flex justify-center items-center text-center h-[200px] rounded-[50%]"
                                 />
                             </div>
@@ -40,8 +43,8 @@ const Teachers = () => {
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
                                 <img
-                                    src="../../public/teachers/Islom-Abdulahatov.jpg"
-                                    alt="teacher"
+                                    src={image2}
+                                    alt=""
                                     className="card flex justify-center items-center text-center h-[200px] rounded-[50%]"
                                 />
                             </div>
@@ -60,8 +63,8 @@ const Teachers = () => {
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
                                 <img
-                                    src="../../public/teachers/Ibrohim-Jalolov.jpg"
-                                    alt="teacher"
+                                    src={image3}
+                                    alt=""
                                     className="card flex justify-center items-center text-center h-[200px] rounded-[50%]"
                                 />
                             </div>
